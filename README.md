@@ -26,7 +26,7 @@ It was released in May 2021.
 # How to build
 1. Repo sync the manifest for your chosen ROM (So far only tested on Android 12.1 ROMs)
 2. Get prebuilt files (vendor) (NOTE: this is temporary, until someone makes vendor trees.)
-    -Get stock firmware (13.0.2.SCUMIXM) from XFU (get Fastboot rom [here](https://xiaomifirmwareupdater.com/miui/biloba/stable/V13.0.4.0.SCUMIXM/))
+    -Get stock firmware (13.0.2.SCUMIXM) from XFU (get Fastboot ROM [from here - XFU link](https://xiaomifirmwareupdater.com/miui/biloba/stable/V13.0.4.0.SCUMIXM/))
     -Extract the TGZ file
     -In the `images` folder, extract super.img with [lpunpack](https://github.com/unix3dgforce/lpunpack) (Thanks to UNIX3Dgforce)
     -Copy the `vendor_a.img` to the `prebuilts` folder of the device tree with the name `vendor.img`.
