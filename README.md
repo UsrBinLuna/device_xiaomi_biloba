@@ -26,10 +26,10 @@ It was released in May 2021.
 # How to build
 1. Repo sync the manifest for your chosen ROM (So far only tested on Android 12.1 ROMs)
 2. Get prebuilt files (vendor) (NOTE: this is temporary, until someone makes vendor trees.)
-    -Get stock firmware (13.0.2.SCUMIXM) from XFU (get Fastboot ROM [from here - XFU link](https://xiaomifirmwareupdater.com/miui/biloba/stable/V13.0.4.0.SCUMIXM/))
-    -Extract the TGZ file
-    -In the `images` folder, extract super.img with [lpunpack](https://github.com/unix3dgforce/lpunpack) (Thanks to UNIX3Dgforce)
-    -Copy the `vendor_a.img` to the `prebuilts` folder of the device tree with the name `vendor.img`.
+    1. Get stock firmware (13.0.2.SCUMIXM) from XFU (get Fastboot ROM [from here - XFU link](https://xiaomifirmwareupdater.com/miui/biloba/stable/V13.0.4.0.SCUMIXM/))
+    2. Extract the TGZ file
+    3. In the `images` folder, extract super.img with [lpunpack](https://github.com/unix3dgforce/lpunpack) (Thanks to UNIX3Dgforce)
+    4. Copy the `vendor_a.img` to the `prebuilts` folder of the device tree with the name `vendor.img`.
 3. Run `breakfast` and enter lineage_biloba-userdebug
 4. If `breakfast` shows no error, run `mka -j#` to build the ROM. (Replace -j# with the amount of threads you want to use. Eg: -j4)
 5. Wait. If any errors related to the DT appear, report them in the `Issues` tab of this repository.
