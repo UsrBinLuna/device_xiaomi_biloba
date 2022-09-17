@@ -21,7 +21,10 @@ It was released in May 2021.
 
 
 ![xiaomi-redmi-note8-2021-0](https://user-images.githubusercontent.com/67978777/190860585-55948bbc-5e02-4fb6-ae48-c3cc5c9f71e6.jpg)
-
+---
+# Known issues
+- Reboots to FB, must flash vbmeta with --disable-veritication
+- Once flashed VBMeta, it'll reboot to Lineage Recovery and complain about MISC and APEX in system_root not existing
 ---
 # How to build
 1. Repo sync the manifest for your chosen ROM (So far only tested on Android 12.1 ROMs)
